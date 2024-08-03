@@ -1,206 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="icon" href="/assets/img/WhatsApp Image 2024-07-25 at 4.32.52 PM.jpeg" type="image">
-        <title>Portfolio website complete</title>
-
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Asad</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Asad</span><br>Technical Support </h1>
-
-                    <a href="#" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="60" y="0" href="assets/img/asadwithspecs.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="/assets/img/Jayant.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Asad</h2>
-                        <p class="about__text">Tech enthusiast Asad is on a coding journey, fueled by lactose-free milk and a love for the mountains. When he's not debugging lines of code, he's daydreaming about his real-life muse, whose heart he won amidst the serene beauty of the hills. Together, they're navigating both the peaks of code and love. 🚀💻💖🏔️</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text"> Asad got a knack for juggling code, customer service, and tech support with a dash of charm and a lactose-free milk in hand. From debugging to debt collection, he’s the multitasker who makes chaos look easy. Need a tech hero or an office savior? Asad’s your guy! 💻💼☕</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/asadwithlappy.png" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Asad</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; Techwithasad. All rights reserved</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel=icon href=/assets/images/icons/favicon.ico type=image/x-icon>
+<link rel=apple-touch-icon sizes=180x180 href=/assets/images/icons/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/assets/images/icons/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/assets/images/icons/favicon-16x16.png>
+<link rel=manifest href=/assets/site.webmanifest>
+<link rel=canonical href=https://techwithasad.com/ >
+<meta name=description content="Asad's Professional Portfolio. A dedicated software developer at iEnergizer with expertise in creating efficient and scalable software solutions.">
+<meta name=author content=Asad>
+<meta name=keywords content="Asad, Software Developer, iEnergizer, Professional Portfolio">
+<meta property=og:title content="Asad's Professional Portfolio">
+<meta property=og:description content="A dedicated software developer at iEnergizer with expertise in creating efficient and scalable software solutions.">
+<meta property=og:type content=website>
+<meta property=og:url content=https://techwithasad.com>
+<meta property=og:image content=/assets/images/og-image.jpg>
+<meta name=twitter:card content=summary_large_image>
+<meta name=twitter:title content="Asad's Professional Portfolio">
+<meta name=twitter:description content="A dedicated software developer at iEnergizer with expertise in creating efficient and scalable software solutions.">
+<meta name=twitter:image content=/assets/images/og-image.jpg>
+<title>Asad's Professional Portfolio</title>
+<link rel=stylesheet href=/assets/style.css>
+</head>
+<body>
+<article>
+<header>
+<h1>Asad</h1>
+<aside>Software Developer at iEnergizer</aside>
+</header>
+<subtitle>Welcome to My Professional Portfolio</subtitle>
+<p>Hello! I'm Asad, a dedicated software developer at iEnergizer. My expertise lies in creating efficient and scalable software solutions that meet the diverse needs of our clients.</p>
+<h3>About Me</h3>
+<p>I have a strong background in software development with a passion for continuous learning and improvement. At iEnergizer, I collaborate with a talented team to deliver high-quality software products.</p>
+<h3>Key Attributes of a Quality Website</h3>
+<ul>
+<li>Lightweight and fast-loading.</li>
+<li>Responsive design that fits all screen sizes.</li>
+<li>Consistent appearance across all browsers.</li>
+<li>Accessibility for all users.</li>
+<li>Clear and legible content that effectively communicates the message.</li>
+</ul>
+<h3>Best Practices in Web Development</h3>
+<p>As a professional developer, I adhere to the following best practices to ensure optimal performance and user experience:</p>
+<h4>Utilize Efficient Font Stacks</h4>
+<p>Using system fonts instead of remote fonts can significantly reduce load times and improve performance.</p>
+<h4>Implement HTTPS</h4>
+<p>Securing websites with HTTPS is essential for data integrity and user trust. Additionally, HTTPS improves search engine rankings and is required for HTTP/2 support.</p>
+<h4>Enable Compression</h4>
+<p>Compressing website content with gzip or other methods reduces bandwidth usage and speeds up page load times.</p>
+<h4>Leverage Caching</h4>
+<p>Implementing caching mechanisms ensures that repeat visitors experience faster load times by reusing previously downloaded resources.</p>
+<h2>Continuous Improvement</h2>
+<p>I believe in the continuous improvement of my skills and the projects I work on. If you have any suggestions or would like to collaborate, feel free to reach out or contribute via my <a href=https://github.com/asadkhan7865571/asadwebsite title="GitHub Repository">GitHub repository</a>.</p>
+<p>Thank you for visiting my portfolio. Let's build something amazing together!</p>
+</article>
+</body>
 </html>
