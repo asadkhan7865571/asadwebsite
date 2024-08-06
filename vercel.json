@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/404", "destination": "/pages/errors/404.html" },
-    { "source": "/500", "destination": "/pages/errors/500.html" },
-    { "source": "/403", "destination": "/pages/errors/403.html" }
+    { "source": "/404", "destination": "./pages/errors/404.html" },
+    { "source": "/500", "destination": "./pages/errors/500.html" },
+    { "source": "/403", "destination": "./pages/errors/403.html" }
   ]
 }
