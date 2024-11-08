@@ -1,0 +1,110 @@
+p{
+    margin: 0;
+    font-family: roboto, arial;
+}
+
+.thumbnail-container{
+width: 260px;
+height: 141px;
+}
+.time-stamp{
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    background-color: black;
+    color: white;
+    font-family: roboto, arial;
+    font-size: 12px;
+    padding: 3px 2px 3px 2px;
+}
+
+.thumbnail{
+    height: 141px;
+    width: 260px;
+    object-fit: contain;
+   
+}
+.channel-profile-container{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.channel-profile-tooltip-container{
+    position: relative;
+}
+
+.tooltip-container{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    border-width: 1px;
+    width: 230px;
+    position: absolute;
+    left: 1px;
+    top: 50px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 1px 0.50px 5px rgba(0, 0, 0, .70);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: opacity 0.3s; 
+    background-color: white;
+    
+}
+.channel-profile-tooltip-container:hover .tooltip-container{
+    opacity: 1;
+}
+
+.channel-profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 5px;
+
+}
+.title{
+    font-family: roboto, arial;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 3px;
+    width: 250px;
+
+}
+
+.tooltip-picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+}
+
+
+.author{
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.stats{
+    margin-left: 8px;
+    color: rgb(54, 50, 50);
+}
+
+.main-page-div{
+    display: flex;
+}
+.author-2{
+    font-family: roboto, arial;
+    font-size: 13px;
+    color: rgb(68, 66, 66);
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+.stats-2{
+    font-family: roboto, arial;
+    font-size: 13px;
+    color: rgb(68, 66, 66);
+
+}

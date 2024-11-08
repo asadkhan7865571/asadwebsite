@@ -1,0 +1,101 @@
+.mainpage-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 17px;
+
+}
+
+@media (max-width: 750px){
+    .mainpage-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    .mainpage-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1000px){
+    .mainpage-grid{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+@media (min-width: 1500px){
+  .mainpage-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
+.sunder-thumbnail{
+    width: 100%;
+}
+.channel-profile{
+    width: 36px;
+    border-radius: 50px;
+}
+.channel-profile-div{
+    border-style: soli;
+    border-width: 1px;
+    width: 36px;
+
+}
+.text-div{
+    border-style: soli;
+    border-width: 1px;
+    margin-left: -8px;
+}
+.title{
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 500 ;
+    line-height: 20px;
+    
+}
+.stats{
+    font-size: 12px;
+    color: #606060;
+
+}
+.author {
+    font-size: 12px;
+    color: #606060;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.title-profile-grid{
+    display: grid;
+    grid-template-columns: 54px 1fr;
+    margin-top: 6px;
+    border-style: soli;
+    border-color: black;
+    border-width: 1px;
+    
+}
+.sunder-thumbnail-div{
+    position: relative;
+}
+.time-stamp{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    padding: 3px 3px 3px 3px;
+}
+.sunder-thumbnail-office{
+    width: 100%;
+    height: 193px;
+}
+.sunder-thumbnail-badminton{
+    width: 100%;
+    height: 193px;
+}
